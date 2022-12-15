@@ -65,9 +65,6 @@
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     letter-spacing: 0.02em;
-    max-width: 1440px;
-    height: 603px;
-    margin: 0 auto;
   }
   
   header{
@@ -150,6 +147,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
+    max-width: 1440px;
+    height: 603px;
+    margin: 0 auto;
   
   }
   
@@ -308,7 +308,6 @@
     background-color: var(--acent-color);
     justify-content: center;
     align-items: center;
-    row-gap: 24px;
   }
   .team-soc-icon {
     fill: var(--background-section);
@@ -355,8 +354,12 @@
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 
-  .item-portf:hover,
-  .item-portf:focus{
+  .portfolio-link{
+    display: block;
+  }
+
+  .portfolio-link:hover,
+  .portfolio-link:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 
   }
@@ -423,7 +426,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #8E8F99;
+    border: 1px solid currentColor;
     border-radius: 4px;
     background-color: var(--secondary-text-color);
     color: #8E8F99;
@@ -436,7 +439,6 @@
   
   .customers-link:hover {
    color: var(--acent-color);
-   border-color: var(--acent-color);
   }
   
   .customers-item {
@@ -447,6 +449,7 @@
   /* footer */
   .footer-container{
     display: flex;
+    align-items: baseline;
   }
   .footer {
     background-color: var(--background-footer-color);
@@ -474,18 +477,18 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-top: 16px;
   }
-  .down-site{
+  /* .down-site{
     display:block;
-  }
+  } */
   .social-media{
-    display: block;
     margin-left:123px;
   }
   .media-title {
     margin-bottom: 16px;
     font-family: inherit;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
