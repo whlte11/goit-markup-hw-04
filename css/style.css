@@ -313,6 +313,10 @@
   .team-soc-icon {
     fill: var(--background-section);
   }
+  .team-soc-link:hover,
+  .team-soc-link:focus{
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
   /* portfolio */
   
   /* button portfolio */
